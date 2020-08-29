@@ -10,7 +10,7 @@ the submodules are not automatically initialized. You will need to execute the f
 cd gdnative_cpp_example
 git submodule update --init --recursive
 ```
-
+# Build cpp sources code.
 ```
 cd gdnative_cpp_example/
 mkdir demo/bin
@@ -20,3 +20,4 @@ cd ..
 scons platform=linux -j16
 
 ```
+Now just open godot and run project.
