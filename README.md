@@ -11,3 +11,12 @@ cd gdnative_cpp_example
 git submodule update --init --recursive
 ```
 
+```
+cd gdnative_cpp_example/
+mkdir demo/bin
+cd godot-cpp
+scons platform=linux generate_bindings=yes -j16
+cd ..
+scons platform=linux -j16
+
+```
